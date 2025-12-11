@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+
+
+}
+
+body{
+    background-color: rgb(40, 40, 44);
+    color: gainsboro;
+}
+
+a:link, a:visited{
+    color: white;
+}
+
+a:hover{
+    color:red;
+}
+
+
+
+.menu{
+    background-color: black;
+    position: sticky;
+    top: 0;   
+}
+
+.menu a{
+    display: flex;
+    float: left;
+    width: 25%;
+    height: 90px;
+    justify-content: center;
+    align-items: center;
+    background-color: #172a2f;
+}
+
+.menu a:first-child {background-color: #42455b}
+
+.menu a:nth-child(2n) { background-color: #506889}
+
+
+header {
+    padding: 5px 20px;
+}
+
+section{
+    height: 25%;
+    padding-top: 90px;
+    line-height: 30px;
+    
+}
+
+section h2{
+    padding-top: 15px;
+}
+
+section button {
+    margin: 25px;
+    padding: 30px;
+    border-radius: 25%;
+}
+
+button:hover{
+    color: darkmagenta;
+}
+
+section a li{
+    background-color: white;
+    color: black;
+    margin: 15px;
+    padding: 10px 15px;
+}
+
+#home {
+}
+
+#about {
+
+}
+
+#projects {
+
+}
+
+#contact {
+
+}
