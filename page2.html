@@ -8,5 +8,22 @@
     <script src="/js/script.js"> </script> 
 </head>
 <body>
-    
+    <header>
+        <p>Created By Miguel Camarena - CPSC 280 Web Development 1</p>
+    </header>
+    <div> <!--redirects user the the previous page -->
+        <a href="main.html"><button class="return">Click here to go home</button></a>
+    </div>
+    <section> <!--short description of the project -->
+        <h1><strong>Client Sales Report App</strong>, SQL, C#, Visual Studio, Excel</h1>
+        <h2>October 2025</h2>
+        <h3>Created views inside SQL Server from a practice database, linked them to a windows form GUI, and coded a C# script to format and export a fictional client’s order information to an Excel Spreadsheet</h3>
+        <!--buttons are linked to very simple java script methods -->
+        <button onclick="loadProject()">Load Image Viewer</button>
+        <button onclick="closeProject()">Close Image Viewer</button>
+    </section>
+    <!--iframe under the section displays documentation from the project -->
+    <iframe id="proj1Frame" src="images\A05_CamarenaMiguel.pdf" alt="This is an iframe containing a pdf of the documentation of my program"></iframe>
+
 </body>
+</html>
